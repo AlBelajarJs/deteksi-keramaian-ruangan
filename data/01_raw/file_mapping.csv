@@ -1,0 +1,196 @@
+class,parent_id,original_filename,standardized_filename,original_path,raw_path
+ramai,ramai_001,074_berisik.mpeg,ramai_001.mpeg,AUDIO/drive-download-20261019T005432Z-1-001\074_berisik.mpeg,data/01_raw/ramai\ramai_001.mpeg
+ramai,ramai_002,074_berisikk.mpeg,ramai_002.mpeg,AUDIO/drive-download-20261019T005432Z-1-001\074_berisikk.mpeg,data/01_raw/ramai\ramai_002.mpeg
+ramai,ramai_003,074_berisikkk.mpeg,ramai_003.mpeg,AUDIO/drive-download-20261019T005432Z-1-001\074_berisikkk.mpeg,data/01_raw/ramai\ramai_003.mpeg
+ramai,ramai_004,24-003 berisik (1).mp3,ramai_004.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-003 berisik (1).mp3,data/01_raw/ramai\ramai_004.mp3
+ramai,ramai_005,24-003 berisik (2).mp3,ramai_005.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-003 berisik (2).mp3,data/01_raw/ramai\ramai_005.mp3
+ramai,ramai_006,24-003 berisik (3).mp3,ramai_006.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-003 berisik (3).mp3,data/01_raw/ramai\ramai_006.mp3
+ramai,ramai_007,24-006 berisik 1.mp3,ramai_007.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-006 berisik 1.mp3,data/01_raw/ramai\ramai_007.mp3
+ramai,ramai_008,24-006 berisik 2.mp3,ramai_008.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-006 berisik 2.mp3,data/01_raw/ramai\ramai_008.mp3
+ramai,ramai_009,24-006 berisik 3.mp3,ramai_009.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-006 berisik 3.mp3,data/01_raw/ramai\ramai_009.mp3
+ramai,ramai_010,24-026 berisik 1.mp3,ramai_010.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-026 berisik 1.mp3,data/01_raw/ramai\ramai_010.mp3
+ramai,ramai_011,24-026 berisik 2.mp3,ramai_011.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-026 berisik 2.mp3,data/01_raw/ramai\ramai_011.mp3
+ramai,ramai_012,24-026 berisik 3.mp3,ramai_012.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-026 berisik 3.mp3,data/01_raw/ramai\ramai_012.mp3
+ramai,ramai_013,24-027_berisik1.mp3,ramai_013.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-027_berisik1.mp3,data/01_raw/ramai\ramai_013.mp3
+ramai,ramai_014,24-027_berisik2.mp3,ramai_014.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-027_berisik2.mp3,data/01_raw/ramai\ramai_014.mp3
+ramai,ramai_015,24-027_berisik3.mp3,ramai_015.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-027_berisik3.mp3,data/01_raw/ramai\ramai_015.mp3
+ramai,ramai_016,24-031 berisik 1.mp3,ramai_016.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-031 berisik 1.mp3,data/01_raw/ramai\ramai_016.mp3
+ramai,ramai_017,24-031 berisik 2.mp3,ramai_017.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-031 berisik 2.mp3,data/01_raw/ramai\ramai_017.mp3
+ramai,ramai_018,24-031 berisik 3.mp3,ramai_018.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-031 berisik 3.mp3,data/01_raw/ramai\ramai_018.mp3
+ramai,ramai_019,24-034 berisik 1.mp3,ramai_019.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-034 berisik 1.mp3,data/01_raw/ramai\ramai_019.mp3
+ramai,ramai_020,24-034 berisik 2.mp3,ramai_020.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-034 berisik 2.mp3,data/01_raw/ramai\ramai_020.mp3
+ramai,ramai_021,24-034 berisik 3.mp3,ramai_021.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-034 berisik 3.mp3,data/01_raw/ramai\ramai_021.mp3
+ramai,ramai_022,24-053 berisik 1.mp3,ramai_022.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-053 berisik 1.mp3,data/01_raw/ramai\ramai_022.mp3
+ramai,ramai_023,24-053 berisik 2.mp3,ramai_023.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-053 berisik 2.mp3,data/01_raw/ramai\ramai_023.mp3
+ramai,ramai_024,24-053 berisik 3.mp3,ramai_024.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-053 berisik 3.mp3,data/01_raw/ramai\ramai_024.mp3
+ramai,ramai_025,24-068 Berisik 1.mp3,ramai_025.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-068 Berisik 1.mp3,data/01_raw/ramai\ramai_025.mp3
+ramai,ramai_026,24-068 Berisik 2.mp3,ramai_026.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-068 Berisik 2.mp3,data/01_raw/ramai\ramai_026.mp3
+ramai,ramai_027,24-068 Berisik 3.mp3,ramai_027.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-068 Berisik 3.mp3,data/01_raw/ramai\ramai_027.mp3
+ramai,ramai_028,24-071 berisik 1.mp3,ramai_028.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-071 berisik 1.mp3,data/01_raw/ramai\ramai_028.mp3
+ramai,ramai_029,24-071 berisik 2.mp3,ramai_029.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-071 berisik 2.mp3,data/01_raw/ramai\ramai_029.mp3
+ramai,ramai_030,24-071 berisik 3.mp3,ramai_030.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-071 berisik 3.mp3,data/01_raw/ramai\ramai_030.mp3
+ramai,ramai_031,24-078_Berisik1.mp3,ramai_031.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-078_Berisik1.mp3,data/01_raw/ramai\ramai_031.mp3
+ramai,ramai_032,24-078_Berisik2.mp3,ramai_032.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-078_Berisik2.mp3,data/01_raw/ramai\ramai_032.mp3
+ramai,ramai_033,24-078_Berisik3.mp3,ramai_033.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-078_Berisik3.mp3,data/01_raw/ramai\ramai_033.mp3
+ramai,ramai_034,24-079 berisik 1.mp3,ramai_034.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-079 berisik 1.mp3,data/01_raw/ramai\ramai_034.mp3
+ramai,ramai_035,24-079 berisik 2.mp3,ramai_035.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-079 berisik 2.mp3,data/01_raw/ramai\ramai_035.mp3
+ramai,ramai_036,24-079 berisik 3.mp3,ramai_036.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-079 berisik 3.mp3,data/01_raw/ramai\ramai_036.mp3
+ramai,ramai_037,24-081 berisik 1.mp3,ramai_037.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-081 berisik 1.mp3,data/01_raw/ramai\ramai_037.mp3
+ramai,ramai_038,24-081 berisik 2.mp3,ramai_038.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-081 berisik 2.mp3,data/01_raw/ramai\ramai_038.mp3
+ramai,ramai_039,24-081 berisik 3.mp3,ramai_039.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-081 berisik 3.mp3,data/01_raw/ramai\ramai_039.mp3
+ramai,ramai_040,24-087 berisik 1.mp3,ramai_040.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-087 berisik 1.mp3,data/01_raw/ramai\ramai_040.mp3
+ramai,ramai_041,24-087 berisik 2.mp3,ramai_041.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-087 berisik 2.mp3,data/01_raw/ramai\ramai_041.mp3
+ramai,ramai_042,24-087 berisik 3.mp3,ramai_042.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-087 berisik 3.mp3,data/01_raw/ramai\ramai_042.mp3
+ramai,ramai_043,24-098 berisik 1.mp3,ramai_043.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-098 berisik 1.mp3,data/01_raw/ramai\ramai_043.mp3
+ramai,ramai_044,24-098 berisik 2.mp3,ramai_044.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-098 berisik 2.mp3,data/01_raw/ramai\ramai_044.mp3
+ramai,ramai_045,24-098 berisik 3.mp3,ramai_045.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-098 berisik 3.mp3,data/01_raw/ramai\ramai_045.mp3
+ramai,ramai_046,24-100 berisik 1.mp3,ramai_046.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-100 berisik 1.mp3,data/01_raw/ramai\ramai_046.mp3
+ramai,ramai_047,24-100 berisik 2.mp3,ramai_047.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-100 berisik 2.mp3,data/01_raw/ramai\ramai_047.mp3
+ramai,ramai_048,24-100 berisik 3.mp3,ramai_048.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-100 berisik 3.mp3,data/01_raw/ramai\ramai_048.mp3
+ramai,ramai_049,24-101_rame 1.mp3,ramai_049.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-101_rame 1.mp3,data/01_raw/ramai\ramai_049.mp3
+ramai,ramai_050,24-101_rame 2.mp3,ramai_050.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-101_rame 2.mp3,data/01_raw/ramai\ramai_050.mp3
+ramai,ramai_051,24-101_rame 3.mp3,ramai_051.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-101_rame 3.mp3,data/01_raw/ramai\ramai_051.mp3
+ramai,ramai_052,24-115 sampel berisik 3.mp3,ramai_052.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-115 sampel berisik 3.mp3,data/01_raw/ramai\ramai_052.mp3
+ramai,ramai_053,24-115_Sampel berisik 1.mp3,ramai_053.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-115_Sampel berisik 1.mp3,data/01_raw/ramai\ramai_053.mp3
+ramai,ramai_054,24-115_sampel berisik 2.mp3,ramai_054.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-115_sampel berisik 2.mp3,data/01_raw/ramai\ramai_054.mp3
+ramai,ramai_055,24-118 berisik 1.mp3,ramai_055.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-118 berisik 1.mp3,data/01_raw/ramai\ramai_055.mp3
+ramai,ramai_056,24-118 berisik 2.mp3,ramai_056.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-118 berisik 2.mp3,data/01_raw/ramai\ramai_056.mp3
+ramai,ramai_057,24-118 berisik 3.mp3,ramai_057.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-118 berisik 3.mp3,data/01_raw/ramai\ramai_057.mp3
+ramai,ramai_058,24-119 berisik 1.mp3,ramai_058.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-119 berisik 1.mp3,data/01_raw/ramai\ramai_058.mp3
+ramai,ramai_059,24-119 berisik 2.mp3,ramai_059.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-119 berisik 2.mp3,data/01_raw/ramai\ramai_059.mp3
+ramai,ramai_060,24-119 berisik 3.mp3,ramai_060.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-119 berisik 3.mp3,data/01_raw/ramai\ramai_060.mp3
+ramai,ramai_061,24-123 berisik 1.mp3,ramai_061.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-123 berisik 1.mp3,data/01_raw/ramai\ramai_061.mp3
+ramai,ramai_062,24-123 berisik 3.mp3,ramai_062.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-123 berisik 3.mp3,data/01_raw/ramai\ramai_062.mp3
+ramai,ramai_063,24-125_Berisik-1.mp3,ramai_063.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-125_Berisik-1.mp3,data/01_raw/ramai\ramai_063.mp3
+ramai,ramai_064,24-125_Berisik-2.mp3,ramai_064.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-125_Berisik-2.mp3,data/01_raw/ramai\ramai_064.mp3
+ramai,ramai_065,24-125_Berisik-3.mp3,ramai_065.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-125_Berisik-3.mp3,data/01_raw/ramai\ramai_065.mp3
+ramai,ramai_066,24-131 berisik 1.mp3,ramai_066.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-131 berisik 1.mp3,data/01_raw/ramai\ramai_066.mp3
+ramai,ramai_067,24-131 berisik 2.mp3,ramai_067.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-131 berisik 2.mp3,data/01_raw/ramai\ramai_067.mp3
+ramai,ramai_068,24-131 berisik 3.mp3,ramai_068.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-131 berisik 3.mp3,data/01_raw/ramai\ramai_068.mp3
+ramai,ramai_069,24-141 berisik (1).mp3,ramai_069.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-141 berisik (1).mp3,data/01_raw/ramai\ramai_069.mp3
+ramai,ramai_070,24-141 berisik (2).mp3,ramai_070.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-141 berisik (2).mp3,data/01_raw/ramai\ramai_070.mp3
+ramai,ramai_071,24-141 berisik (3).mp3,ramai_071.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-141 berisik (3).mp3,data/01_raw/ramai\ramai_071.mp3
+ramai,ramai_072,24-157 Berisik 1.mp3,ramai_072.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-157 Berisik 1.mp3,data/01_raw/ramai\ramai_072.mp3
+ramai,ramai_073,24-157 Berisik 2.mp3,ramai_073.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-157 Berisik 2.mp3,data/01_raw/ramai\ramai_073.mp3
+ramai,ramai_074,24-157 Berisik 3.mp3,ramai_074.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-157 Berisik 3.mp3,data/01_raw/ramai\ramai_074.mp3
+ramai,ramai_075,24-168_Berisik.mp3,ramai_075.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-168_Berisik.mp3,data/01_raw/ramai\ramai_075.mp3
+ramai,ramai_076,24-168_Berisik1.mp3,ramai_076.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-168_Berisik1.mp3,data/01_raw/ramai\ramai_076.mp3
+ramai,ramai_077,24-168_Berisik2.mp3,ramai_077.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-168_Berisik2.mp3,data/01_raw/ramai\ramai_077.mp3
+ramai,ramai_078,24-169 berisik 1.mp3,ramai_078.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-169 berisik 1.mp3,data/01_raw/ramai\ramai_078.mp3
+ramai,ramai_079,24-169 berisik 2.mp3,ramai_079.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-169 berisik 2.mp3,data/01_raw/ramai\ramai_079.mp3
+ramai,ramai_080,24-169 berisik 3.mp3,ramai_080.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-169 berisik 3.mp3,data/01_raw/ramai\ramai_080.mp3
+ramai,ramai_081,24-190 berisik 1.mp3,ramai_081.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-190 berisik 1.mp3,data/01_raw/ramai\ramai_081.mp3
+ramai,ramai_082,24-190 berisik 2.mp3,ramai_082.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-190 berisik 2.mp3,data/01_raw/ramai\ramai_082.mp3
+ramai,ramai_083,24-190 berisik 3.mp3,ramai_083.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-190 berisik 3.mp3,data/01_raw/ramai\ramai_083.mp3
+ramai,ramai_084,24-196 berisik 1.mp3,ramai_084.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-196 berisik 1.mp3,data/01_raw/ramai\ramai_084.mp3
+ramai,ramai_085,24-196 berisik 2.mp3,ramai_085.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-196 berisik 2.mp3,data/01_raw/ramai\ramai_085.mp3
+ramai,ramai_086,24-196 berisik 3.mp3,ramai_086.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-196 berisik 3.mp3,data/01_raw/ramai\ramai_086.mp3
+ramai,ramai_087,24-201 berisik 1.mp3,ramai_087.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-201 berisik 1.mp3,data/01_raw/ramai\ramai_087.mp3
+ramai,ramai_088,24-201 berisik 2.mp3,ramai_088.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-201 berisik 2.mp3,data/01_raw/ramai\ramai_088.mp3
+ramai,ramai_089,24-201 berisik 3.mp3,ramai_089.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-201 berisik 3.mp3,data/01_raw/ramai\ramai_089.mp3
+ramai,ramai_090,24-202_berisik 1.MP3,ramai_090.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-202_berisik 1.MP3,data/01_raw/ramai\ramai_090.mp3
+ramai,ramai_091,24-202_berisik 2.MP3,ramai_091.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-202_berisik 2.MP3,data/01_raw/ramai\ramai_091.mp3
+ramai,ramai_092,24-202_berisik 3.MP3,ramai_092.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-202_berisik 3.MP3,data/01_raw/ramai\ramai_092.mp3
+ramai,ramai_093,24-228 berisik 1.mp3,ramai_093.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-228 berisik 1.mp3,data/01_raw/ramai\ramai_093.mp3
+ramai,ramai_094,24-228 berisik 2.mp3,ramai_094.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-228 berisik 2.mp3,data/01_raw/ramai\ramai_094.mp3
+ramai,ramai_095,24-228 berisik 3.mp3,ramai_095.mp3,AUDIO/drive-download-20261019T005432Z-1-001\24-228 berisik 3.mp3,data/01_raw/ramai\ramai_095.mp3
+ramai,ramai_096,berisik1.m4a,ramai_096.m4a,AUDIO/drive-download-20261019T005432Z-1-001\berisik1.m4a,data/01_raw/ramai\ramai_096.m4a
+ramai,ramai_097,berisik2.m4a,ramai_097.m4a,AUDIO/drive-download-20261019T005432Z-1-001\berisik2.m4a,data/01_raw/ramai\ramai_097.m4a
+ramai,ramai_098,berisik3.m4a,ramai_098.m4a,AUDIO/drive-download-20261019T005432Z-1-001\berisik3.m4a,data/01_raw/ramai\ramai_098.m4a
+ramai,ramai_099,berisikk.mp3,ramai_099.mp3,AUDIO/drive-download-20261019T005432Z-1-001\berisikk.mp3,data/01_raw/ramai\ramai_099.mp3
+ramai,ramai_100,berisikkk(1).mp3,ramai_100.mp3,AUDIO/drive-download-20261019T005432Z-1-001\berisikkk(1).mp3,data/01_raw/ramai\ramai_100.mp3
+ramai,ramai_101,berisikkk.mp3,ramai_101.mp3,AUDIO/drive-download-20261019T005432Z-1-001\berisikkk.mp3,data/01_raw/ramai\ramai_101.mp3
+tidak_ramai,tidak_ramai_001,24-003 sunyi 2.mp3,tidak_ramai_001.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-003 sunyi 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_001.mp3
+tidak_ramai,tidak_ramai_002,24-003 sunyi 3.mp3,tidak_ramai_002.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-003 sunyi 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_002.mp3
+tidak_ramai,tidak_ramai_003,24-006 non-berisik 1.mp3,tidak_ramai_003.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-006 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_003.mp3
+tidak_ramai,tidak_ramai_004,24-006 non-berisik 2.mp3,tidak_ramai_004.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-006 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_004.mp3
+tidak_ramai,tidak_ramai_005,24-006 non-berisik 3.mp3,tidak_ramai_005.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-006 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_005.mp3
+tidak_ramai,tidak_ramai_006,24-026 non-berisik 1.mp3,tidak_ramai_006.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-026 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_006.mp3
+tidak_ramai,tidak_ramai_007,24-026 non-berisik 2.mp3,tidak_ramai_007.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-026 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_007.mp3
+tidak_ramai,tidak_ramai_008,24-026 non-berisik 3.mp3,tidak_ramai_008.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-026 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_008.mp3
+tidak_ramai,tidak_ramai_009,24-027_non-berisik1.mp3,tidak_ramai_009.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-027_non-berisik1.mp3,data/01_raw/tidak_ramai\tidak_ramai_009.mp3
+tidak_ramai,tidak_ramai_010,24-027_non-berisik2.mp3,tidak_ramai_010.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-027_non-berisik2.mp3,data/01_raw/tidak_ramai\tidak_ramai_010.mp3
+tidak_ramai,tidak_ramai_011,24-027_non-berisik3.mp3,tidak_ramai_011.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-027_non-berisik3.mp3,data/01_raw/tidak_ramai\tidak_ramai_011.mp3
+tidak_ramai,tidak_ramai_012,24-031 non-berisik 1.mp3,tidak_ramai_012.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-031 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_012.mp3
+tidak_ramai,tidak_ramai_013,24-031 non-berisik 2.mp3,tidak_ramai_013.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-031 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_013.mp3
+tidak_ramai,tidak_ramai_014,24-031 non-berisik 3.mp3,tidak_ramai_014.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-031 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_014.mp3
+tidak_ramai,tidak_ramai_015,24-034 non-berisik 1.mp3,tidak_ramai_015.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-034 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_015.mp3
+tidak_ramai,tidak_ramai_016,24-034 non-berisik 2.mp3,tidak_ramai_016.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-034 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_016.mp3
+tidak_ramai,tidak_ramai_017,24-034 non-berisik 3.mp3,tidak_ramai_017.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-034 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_017.mp3
+tidak_ramai,tidak_ramai_018,24-053 non-berisik 1.mp3,tidak_ramai_018.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-053 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_018.mp3
+tidak_ramai,tidak_ramai_019,24-053 non-berisik 2.mp3,tidak_ramai_019.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-053 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_019.mp3
+tidak_ramai,tidak_ramai_020,24-053 non-berisik 3.mp3,tidak_ramai_020.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-053 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_020.mp3
+tidak_ramai,tidak_ramai_021,24-068 non-berisik 1.mp3,tidak_ramai_021.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-068 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_021.mp3
+tidak_ramai,tidak_ramai_022,24-068 non-berisik 2.mp3,tidak_ramai_022.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-068 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_022.mp3
+tidak_ramai,tidak_ramai_023,24-068 non-berisik 3.mp3,tidak_ramai_023.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-068 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_023.mp3
+tidak_ramai,tidak_ramai_024,24-071 non berisik 1.mp3,tidak_ramai_024.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-071 non berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_024.mp3
+tidak_ramai,tidak_ramai_025,24-071 non berisik 2.mp3,tidak_ramai_025.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-071 non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_025.mp3
+tidak_ramai,tidak_ramai_026,24-071 non berisik 3.mp3,tidak_ramai_026.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-071 non berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_026.mp3
+tidak_ramai,tidak_ramai_027,24-079  non-berisik 1.mp3,tidak_ramai_027.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-079  non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_027.mp3
+tidak_ramai,tidak_ramai_028,24-079  non-berisik 2.mp3,tidak_ramai_028.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-079  non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_028.mp3
+tidak_ramai,tidak_ramai_029,24-079  non-berisik 3.mp3,tidak_ramai_029.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-079  non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_029.mp3
+tidak_ramai,tidak_ramai_030,24-087 non berisik 1.mp3,tidak_ramai_030.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-087 non berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_030.mp3
+tidak_ramai,tidak_ramai_031,24-087 non berisik 2.mp3,tidak_ramai_031.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-087 non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_031.mp3
+tidak_ramai,tidak_ramai_032,24-087 non berisik 3.mp3,tidak_ramai_032.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-087 non berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_032.mp3
+tidak_ramai,tidak_ramai_033,24-098 non-berisik 1.mp3,tidak_ramai_033.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-098 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_033.mp3
+tidak_ramai,tidak_ramai_034,24-098 non-berisik 2.mp3,tidak_ramai_034.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-098 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_034.mp3
+tidak_ramai,tidak_ramai_035,24-098 non-berisik 3.mp3,tidak_ramai_035.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-098 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_035.mp3
+tidak_ramai,tidak_ramai_036,24-100 non-berisik 1.mp3,tidak_ramai_036.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-100 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_036.mp3
+tidak_ramai,tidak_ramai_037,24-100 non-berisik 2.mp3,tidak_ramai_037.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-100 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_037.mp3
+tidak_ramai,tidak_ramai_038,24-100 non-berisik 3.mp3,tidak_ramai_038.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-100 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_038.mp3
+tidak_ramai,tidak_ramai_039,24-101_sepi 1.mp3,tidak_ramai_039.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-101_sepi 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_039.mp3
+tidak_ramai,tidak_ramai_040,24-101_sepi 2.mp3,tidak_ramai_040.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-101_sepi 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_040.mp3
+tidak_ramai,tidak_ramai_041,24-101_sepi 3.mp3,tidak_ramai_041.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-101_sepi 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_041.mp3
+tidak_ramai,tidak_ramai_042,24-115_ sampel non berisik 1.mp3,tidak_ramai_042.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-115_ sampel non berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_042.mp3
+tidak_ramai,tidak_ramai_043,24-115_sampel no berisik 3.mp3,tidak_ramai_043.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-115_sampel no berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_043.mp3
+tidak_ramai,tidak_ramai_044,24-115_sampel non berisik 2.mp3,tidak_ramai_044.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-115_sampel non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_044.mp3
+tidak_ramai,tidak_ramai_045,24-118 non-berisik 1.mp3,tidak_ramai_045.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-118 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_045.mp3
+tidak_ramai,tidak_ramai_046,24-118 non-berisik 3.mp3,tidak_ramai_046.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-118 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_046.mp3
+tidak_ramai,tidak_ramai_047,24-118_ga_rame_part2.mp3,tidak_ramai_047.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-118_ga_rame_part2.mp3,data/01_raw/tidak_ramai\tidak_ramai_047.mp3
+tidak_ramai,tidak_ramai_048,24-119 non-berisik 1.mp3,tidak_ramai_048.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-119 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_048.mp3
+tidak_ramai,tidak_ramai_049,24-119 non-berisik 2.mp3,tidak_ramai_049.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-119 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_049.mp3
+tidak_ramai,tidak_ramai_050,24-119 non-berisik 3.mp3,tidak_ramai_050.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-119 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_050.mp3
+tidak_ramai,tidak_ramai_051,24-123 non-berisik 1.mp3,tidak_ramai_051.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-123 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_051.mp3
+tidak_ramai,tidak_ramai_052,24-123 non-berisik 2.mp3,tidak_ramai_052.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-123 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_052.mp3
+tidak_ramai,tidak_ramai_053,24-125_Non-Berisik-1.mp3,tidak_ramai_053.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-125_Non-Berisik-1.mp3,data/01_raw/tidak_ramai\tidak_ramai_053.mp3
+tidak_ramai,tidak_ramai_054,24-125_Non-Berisik-2.mp3,tidak_ramai_054.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-125_Non-Berisik-2.mp3,data/01_raw/tidak_ramai\tidak_ramai_054.mp3
+tidak_ramai,tidak_ramai_055,24-125_Non-Berisik-3.mp3,tidak_ramai_055.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-125_Non-Berisik-3.mp3,data/01_raw/tidak_ramai\tidak_ramai_055.mp3
+tidak_ramai,tidak_ramai_056,24-131 non-berisik 1.mp3,tidak_ramai_056.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-131 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_056.mp3
+tidak_ramai,tidak_ramai_057,24-131 non-berisik 2.mp3,tidak_ramai_057.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-131 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_057.mp3
+tidak_ramai,tidak_ramai_058,24-131 non-berisik 3.mp3,tidak_ramai_058.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-131 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_058.mp3
+tidak_ramai,tidak_ramai_059,24-141 non-berisik (1).mp3,tidak_ramai_059.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-141 non-berisik (1).mp3,data/01_raw/tidak_ramai\tidak_ramai_059.mp3
+tidak_ramai,tidak_ramai_060,24-141 non-berisik (2).mp3,tidak_ramai_060.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-141 non-berisik (2).mp3,data/01_raw/tidak_ramai\tidak_ramai_060.mp3
+tidak_ramai,tidak_ramai_061,24-141 non-berisik (3).mp3,tidak_ramai_061.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-141 non-berisik (3).mp3,data/01_raw/tidak_ramai\tidak_ramai_061.mp3
+tidak_ramai,tidak_ramai_062,24-157 non  berisik 1.mp3,tidak_ramai_062.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-157 non  berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_062.mp3
+tidak_ramai,tidak_ramai_063,24-157 non berisik 2.mp3,tidak_ramai_063.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-157 non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_063.mp3
+tidak_ramai,tidak_ramai_064,24-157 non-berisik 3.mp3,tidak_ramai_064.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-157 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_064.mp3
+tidak_ramai,tidak_ramai_065,24-168_Non-Berisik.mp3,tidak_ramai_065.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-168_Non-Berisik.mp3,data/01_raw/tidak_ramai\tidak_ramai_065.mp3
+tidak_ramai,tidak_ramai_066,24-168_Non-Berisik1.mp3,tidak_ramai_066.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-168_Non-Berisik1.mp3,data/01_raw/tidak_ramai\tidak_ramai_066.mp3
+tidak_ramai,tidak_ramai_067,24-168_Non-Berisik2.mp3,tidak_ramai_067.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-168_Non-Berisik2.mp3,data/01_raw/tidak_ramai\tidak_ramai_067.mp3
+tidak_ramai,tidak_ramai_068,24-169 non berisik 1.mp3,tidak_ramai_068.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-169 non berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_068.mp3
+tidak_ramai,tidak_ramai_069,24-169 non berisik 2.mp3,tidak_ramai_069.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-169 non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_069.mp3
+tidak_ramai,tidak_ramai_070,24-169 non berisik 3.mp3,tidak_ramai_070.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-169 non berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_070.mp3
+tidak_ramai,tidak_ramai_071,24-179 sepi 1.mp3,tidak_ramai_071.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-179 sepi 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_071.mp3
+tidak_ramai,tidak_ramai_072,24-179 sepi 2.mp3,tidak_ramai_072.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-179 sepi 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_072.mp3
+tidak_ramai,tidak_ramai_073,24-179 sepi 3.mp3,tidak_ramai_073.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-179 sepi 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_073.mp3
+tidak_ramai,tidak_ramai_074,24-190 non-berisik 1.mp3,tidak_ramai_074.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-190 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_074.mp3
+tidak_ramai,tidak_ramai_075,24-190 non-berisik 2.mp3,tidak_ramai_075.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-190 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_075.mp3
+tidak_ramai,tidak_ramai_076,24-190 non-berisik 3.mp3,tidak_ramai_076.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-190 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_076.mp3
+tidak_ramai,tidak_ramai_077,24-196 non berisik 1.mp3,tidak_ramai_077.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-196 non berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_077.mp3
+tidak_ramai,tidak_ramai_078,24-196 non berisik 2.mp3,tidak_ramai_078.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-196 non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_078.mp3
+tidak_ramai,tidak_ramai_079,24-196 non berisik 3.mp3,tidak_ramai_079.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-196 non berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_079.mp3
+tidak_ramai,tidak_ramai_080,24-201 non berisik 1.mp3,tidak_ramai_080.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-201 non berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_080.mp3
+tidak_ramai,tidak_ramai_081,24-201 non berisik 2.mp3,tidak_ramai_081.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-201 non berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_081.mp3
+tidak_ramai,tidak_ramai_082,24-201 non berisik 3.mp3,tidak_ramai_082.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-201 non berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_082.mp3
+tidak_ramai,tidak_ramai_083,24-202_non berisik 1.MP3,tidak_ramai_083.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-202_non berisik 1.MP3,data/01_raw/tidak_ramai\tidak_ramai_083.mp3
+tidak_ramai,tidak_ramai_084,24-202_non berisik 2.MP3,tidak_ramai_084.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-202_non berisik 2.MP3,data/01_raw/tidak_ramai\tidak_ramai_084.mp3
+tidak_ramai,tidak_ramai_085,24-202_non berisik 3.MP3,tidak_ramai_085.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-202_non berisik 3.MP3,data/01_raw/tidak_ramai\tidak_ramai_085.mp3
+tidak_ramai,tidak_ramai_086,24-228 non-berisik 1.mp3,tidak_ramai_086.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-228 non-berisik 1.mp3,data/01_raw/tidak_ramai\tidak_ramai_086.mp3
+tidak_ramai,tidak_ramai_087,24-228 non-berisik 2.mp3,tidak_ramai_087.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-228 non-berisik 2.mp3,data/01_raw/tidak_ramai\tidak_ramai_087.mp3
+tidak_ramai,tidak_ramai_088,24-228 non-berisik 3.mp3,tidak_ramai_088.mp3,AUDIO/drive-download-20261019T005750Z-1-001\24-228 non-berisik 3.mp3,data/01_raw/tidak_ramai\tidak_ramai_088.mp3
+tidak_ramai,tidak_ramai_089,non berisik (1).m4a,tidak_ramai_089.m4a,AUDIO/drive-download-20261019T005750Z-1-001\non berisik (1).m4a,data/01_raw/tidak_ramai\tidak_ramai_089.m4a
+tidak_ramai,tidak_ramai_090,non berisik (2).m4a,tidak_ramai_090.m4a,AUDIO/drive-download-20261019T005750Z-1-001\non berisik (2).m4a,data/01_raw/tidak_ramai\tidak_ramai_090.m4a
+tidak_ramai,tidak_ramai_091,non berisik.m4a,tidak_ramai_091.m4a,AUDIO/drive-download-20261019T005750Z-1-001\non berisik.m4a,data/01_raw/tidak_ramai\tidak_ramai_091.m4a
+tidak_ramai,tidak_ramai_092,non-berisik1.mp3,tidak_ramai_092.mp3,AUDIO/drive-download-20261019T005750Z-1-001\non-berisik1.mp3,data/01_raw/tidak_ramai\tidak_ramai_092.mp3
+tidak_ramai,tidak_ramai_093,non-berisik2.mp3,tidak_ramai_093.mp3,AUDIO/drive-download-20261019T005750Z-1-001\non-berisik2.mp3,data/01_raw/tidak_ramai\tidak_ramai_093.mp3
+tidak_ramai,tidak_ramai_094,non-berisik3.mp3,tidak_ramai_094.mp3,AUDIO/drive-download-20261019T005750Z-1-001\non-berisik3.mp3,data/01_raw/tidak_ramai\tidak_ramai_094.mp3
