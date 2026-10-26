@@ -164,7 +164,7 @@ def run_continuous_monitor(
             conf_pct = float(pred_proba[pred_class] * 100)
 
             if pred_class == 1:
-                status_str = "🚨 RAMAI / BERISIK"
+                status_str = " RAMAI / BERISIK"
                 total_ramai += 1
                 # Bunyikan alarm suara terminal di setiap deteksi RAMAI
                 try:

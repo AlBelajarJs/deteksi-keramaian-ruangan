@@ -636,7 +636,7 @@ if uploaded_file is not None:
         col1, col2 = st.columns(2)
         with col1:
             if pred_class == 1:
-                st.error("### 🚨 STATUS RUANGAN: RAMAI (Kelas 1)")
+                st.error("###  STATUS RUANGAN: RAMAI (Kelas 1)")
                 st.metric("Tingkat Keyakinan (Confidence Score)", f"{pred_proba[1]*100:.2f}%")
             else:
                 st.success("### ✅ STATUS RUANGAN: TIDAK RAMAI / TENANG (Kelas 0)")

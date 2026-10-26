@@ -19,14 +19,14 @@ Mari kita bandingkan tiga solusi yang ada di dunia nyata:
 | :--- | :--- | :--- |
 | **1. Sewa Satpam / Petugas Manusia** | Petugas berkeliling ruangan setiap 10 menit sambil menegur: *"Ssstt! Jangan berisik!"* | 💸 **Sangat mahal** (harus bayar gaji bulanan). Selain itu petugas adalah manusia: bisa lelah, mengantuk, bosan, atau canggung menegur orang lain. |
 | **2. Pasang Kamera Pengawas (CCTV)** | Memasang puluhan kamera video di langit-langit ruangan. | 👁️ **Melanggar Privasi & Buta Suara:** CCTV merekam wajah, gerak-gerik pribadi, dan pakaian orang. Parahnya lagi, kamera CCTV biasa **tidak bisa mengukur seberapa berisik sebuah ruangan** (dua orang yang berbisik mesra terlihat sama di kamera dengan dua orang yang sedang berteriak marah). |
-| **3. Merekam Suara & Menguping Obrolan** | Memasang mikrofon yang menyadap dan merekam seluruh percakapan pengunjung. | 🚨 **Pelanggaran Privasi Tingkat Berat:** Tidak ada pengunjung yang mau rahasia bisnis, gosip pribadi, atau percakapan teleponnya direkam dan disimpan di komputer orang lain. |
+| **3. Merekam Suara & Menguping Obrolan** | Memasang mikrofon yang menyadap dan merekam seluruh percakapan pengunjung. |  **Pelanggaran Privasi Tingkat Berat:** Tidak ada pengunjung yang mau rahasia bisnis, gosip pribadi, atau percakapan teleponnya direkam dan disimpan di komputer orang lain. |
 
 ### 💡 Solusi Emas Kita: "Satpam Suara Pintar yang Buta Tapi Sangat Peka" (*Privacy-Preserving Acoustic Sentinel*)
 
 Proyek yang kita bangun ini adalah **jalan tengah yang sempurna**:
 1. Sistem ini **TIDAK PERNAH merekam atau menyimpan isi obrolan manusia**. Sistem ini tidak peduli *apa* yang sedang dibicarakan (rahasia negara, gosip, atau pelajaran).
 2. Sistem ini hanya mendengarkan **getaran fisik suara** di udara, langsung mengubahnya menjadi **angka-angka statistik getaran** dalam hitungan sepersekian detik, lalu **langsung membuang suara aslinya**.
-3. Jika angka getaran tersebut cocok dengan karakteristik "kerumunan orang gaduh", layar komputer akan langsung menyala merah terang: **"🚨 WARNING: HARAP TENANG! RUANGAN TERDETEKSI BERISIK!"**, laptop membunyikan sirine pendek, dan suara robot otomatis menegur seisi ruangan: *"Harap tenang, ruangan terdeteksi berisik!"*.
+3. Jika angka getaran tersebut cocok dengan karakteristik "kerumunan orang gaduh", layar komputer akan langsung menyala merah terang: **" WARNING: HARAP TENANG! RUANGAN TERDETEKSI BERISIK!"**, laptop membunyikan sirine pendek, dan suara robot otomatis menegur seisi ruangan: *"Harap tenang, ruangan terdeteksi berisik!"*.
 
 Hasilnya: Ruangan tetap tenang, tidak perlu menggaji satpam, dan **privasi semua orang 100% aman dan terlindungi**.
 
@@ -205,7 +205,7 @@ Hasilnya luar biasa:
 
 ---
 
-### 🚨 LANGKAH 5: MEMBANGUN APLIKASI WEB & MODE SATPAM OTOMATIS (`app.py`)
+###  LANGKAH 5: MEMBANGUN APLIKASI WEB & MODE SATPAM OTOMATIS (`app.py`)
 #### *"Bagaimana Otak AI Bekerja di Dunia Nyata?"*
 
 Setelah otak AI selesai dilatih dan disimpan ke dalam file pintar `models/rf_audio_classifier.pkl`, kita membangun antarmuka web interaktif yang cantik menggunakan **Streamlit**.
@@ -218,7 +218,7 @@ Cara kerjanya saat Anda menyalakan tombol di layar:
 3. **Pemberian Vonis:**
    - Jika **TENANG (0):** Layar tetap berwarna **HIJAU SEJUK**: *"🟢 STATUS RUANGAN: KONDUSIF & HENING"*.
    - Jika **RAMAI (1):** Layar seketika berubah menjadi **MERAH BERKEDIP TERANG**: 
-     > ### 🚨 WARNING: HARAP TENANG! RUANGAN TERDETEKSI BERISIK!
+     > ###  WARNING: HARAP TENANG! RUANGAN TERDETEKSI BERISIK!
      Laptop membunyikan nada sirine *BEEP-BEEP!* dan suara robot otomatis menegur:
      > *"Harap tenang, ruangan terdeteksi berisik!"*
    - Meteran suara bergaya LED analog (`[ 🟩🟩🟩🟩🟨🟨🟥🟥 ]`) bergerak naik-turun secara langsung sehingga semua orang di ruangan bisa melihat seberapa gaduh suara mereka.

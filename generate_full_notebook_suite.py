@@ -739,7 +739,7 @@ streamlit run app.py
 ### 📟 Moda 2: Sensor Pemantau Kontinu via Terminal (`src/live_monitor.py`)
 Mesin pemantau audio otomatis tanpa henti (*Continuous 5-Second Tumbling Window*) yang dirancang layaknya perangkat IoT / CCTV Audio di ruangan:
 - Menggunakan buffer audio `sounddevice` pada sampling rate 16.000 Hz Mono.
-- Setiap 5 detik menampilkan meter volume teks (`[██████░░░░] RMS: 0.042`), status vonis (`🟢 TENANG` vs `🚨 RAMAI`), tingkat keyakinan, dan latensi inferensi.
+- Setiap 5 detik menampilkan meter volume teks (`[██████░░░░] RMS: 0.042`), status vonis (`🟢 TENANG` vs ` RAMAI`), tingkat keyakinan, dan latensi inferensi.
 - Secara otomatis mencatat riwayat pemantauan live ke `reports/live_detection_log.csv`.
 
 Jalankan perintah terminal berikut:

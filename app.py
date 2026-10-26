@@ -350,7 +350,7 @@ st.markdown('<div class="sub-header">Klasifikasi Akustik Real-Time Non-Invasif m
 
 # TABS APLIKASI
 tab_sentinel, tab_file, tab_eval = st.tabs([
-    "🚨 Live Watchdog (Mode Satpam Suara Otomatis)",
+    " Live Watchdog (Mode Satpam Suara Otomatis)",
     "📂 Uji File Rekaman & Sampel Demo",
     "📊 Dashboard Evaluasi & Metodologi CRISP-DM"
 ])
@@ -359,7 +359,7 @@ tab_sentinel, tab_file, tab_eval = st.tabs([
 # TAB 1: LIVE WATCHDOG (MODE SATPAM SUARA OTOMATIS)
 # =========================================================================
 with tab_sentinel:
-    st.subheader("🚨 Smart Acoustic Sentinel: Mode Satpam Suara Otomatis")
+    st.subheader(" Smart Acoustic Sentinel: Mode Satpam Suara Otomatis")
     st.caption("Pemantauan ruangan tanpa henti (*Continuous IoT Audio Sentinel*): Mendeteksi kegaduhan secara real-time, memicu peringatan visual berkedip, dan menyalakan teguran audio otomatis saat ruangan berisik.")
 
     # Inisialisasi Session State Sentinel
@@ -406,7 +406,7 @@ with tab_sentinel:
             is_active = False
         else:
             is_active = st.toggle(
-                "🚨 **AKTIFKAN SATPAM SUARA (LIVE SENTINEL)**",
+                " **AKTIFKAN SATPAM SUARA (LIVE SENTINEL)**",
                 value=st.session_state["watchdog_active"],
                 key="toggle_sentinel_active"
             )
@@ -486,7 +486,7 @@ with tab_sentinel:
             play_tts=tts_alarm,
             trigger_id=test_trigger_id
         )
-        st.toast("🔊 Membunyikan uji coba alarm...", icon="🚨")
+        st.toast("🔊 Membunyikan uji coba alarm...", icon="")
     elif not is_active:
         alert_audio_placeholder.empty()
 
@@ -502,7 +502,7 @@ with tab_sentinel:
         st.markdown(f"""
         <div class="giant-alert-ramai">
             <div style="font-size: 2.3rem; font-weight: 900; color: #b91c1c; letter-spacing: 1px; margin-bottom: 0.4rem;">
-                🚨 WARNING: HARAP TENANG! RUANGAN TERDETEKSI BERISIK!
+                 WARNING: HARAP TENANG! RUANGAN TERDETEKSI BERISIK!
             </div>
             <div style="font-size: 1.25rem; font-weight: 600; color: #7f1d1d; margin-bottom: 0.8rem;">
                 Tingkat kebisingan vokal / kerumunan melampaui batas toleransi ruangan kondusif!
@@ -533,7 +533,7 @@ with tab_sentinel:
                 ⚪ SMART ACOUSTIC SENTINEL: MODE STANDBY
             </div>
             <div style="font-size: 1.05rem; color: #64748b;">
-                Nyalakan saklar <b>'🚨 Aktifkan Satpam Suara'</b> di atas untuk memulai pemantauan mikrofon secara otomatis.
+                Nyalakan saklar <b>' Aktifkan Satpam Suara'</b> di atas untuk memulai pemantauan mikrofon secara otomatis.
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -566,7 +566,7 @@ with tab_sentinel:
     # ---------------------------------------------------------------------
     cm1, cm2, cm3, cm4 = st.columns(4)
     with cm1:
-        stat_label = "RAMAI 🚨" if curr_status == "RAMAI" else ("TENANG 🟢" if curr_status == "TENANG" else "STANDBY ⚪")
+        stat_label = "RAMAI " if curr_status == "RAMAI" else ("TENANG 🟢" if curr_status == "TENANG" else "STANDBY ⚪")
         cm1.metric(
             "Status Saat Ini",
             stat_label,
@@ -652,7 +652,7 @@ with tab_sentinel:
                     rms_b = float(np.sqrt(np.mean(y_b_padded ** 2)))
 
                     if pred_b == 1:
-                        st.error(f"🚨 Hasil: **RAMAI / BERISIK** (Keyakinan: {proba_b[1]*100:.1f}%, RMS: {rms_b:.4f}, Latensi: {infer_b:.1f}ms)")
+                        st.error(f" Hasil: **RAMAI / BERISIK** (Keyakinan: {proba_b[1]*100:.1f}%, RMS: {rms_b:.4f}, Latensi: {infer_b:.1f}ms)")
                     else:
                         st.success(f"🟢 Hasil: **TIDAK RAMAI / KONDUSIF** (Keyakinan: {proba_b[0]*100:.1f}%, RMS: {rms_b:.4f}, Latensi: {infer_b:.1f}ms)")
 
@@ -703,7 +703,7 @@ with tab_sentinel:
 
             st.session_state["history_log"].append({
                 "Waktu": now_str,
-                "Status": "RAMAI 🚨" if pred_live == 1 else "TENANG 🟢",
+                "Status": "RAMAI " if pred_live == 1 else "TENANG 🟢",
                 "Probabilitas Ramai (%)": round(prob_ramai, 2),
                 "Keyakinan (%)": round(conf_live, 1),
                 "RMS Energy": round(rms_live, 4),
@@ -821,7 +821,7 @@ with tab_file:
         if pred_class == 1:
             st.markdown(f"""
             <div class="card-ramai">
-                <h2 style="color: #991b1b; margin:0 0 0.5rem 0;">🚨 STATUS RUANGAN: RAMAI / BERISIK (Kelas 1)</h2>
+                <h2 style="color: #991b1b; margin:0 0 0.5rem 0;"> STATUS RUANGAN: RAMAI / BERISIK (Kelas 1)</h2>
                 <p style="color: #7f1d1d; margin:0; font-size: 1.1rem;">
                     Terdeteksi aktivitas percakapan vokal manusia yang aktif, diskusi kelompok, atau kerumunan.
                 </p>
