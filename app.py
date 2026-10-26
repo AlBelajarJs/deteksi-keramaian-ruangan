@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import json
+import uuid
 import joblib
 import io
 from datetime import datetime
@@ -201,18 +202,38 @@ def make_led_volume_meter(rms: float, max_rms: float = 0.08, num_blocks: int = 1
             blocks.append("░")
     return "".join(blocks), ratio * 100.0
 
-def trigger_audio_alarm(play_beep: bool = True, play_tts: bool = True):
-    """Membunyikan alarm nada Web Audio API dan sintesis suara teguran otomatis."""
+def trigger_audio_alarm(container=None, play_beep: bool = True, play_tts: bool = True, trigger_id: str = None):
+    """
+    Membunyikan alarm nada Web Audio API dan sintesis suara teguran otomatis (TTS).
+
+    Fitur Rekayasa Anti-Gagal (Reliable Continuous / Repeat Triggering):
+    1. Unique Cache-Buster ID: Menyisipkan UUID + timestamp unik ke markup & script JS
+       sehingga Virtual DOM Streamlit dan engine browser selalu mengeksekusi ulang kode audio di setiap siklus.
+    2. Reset Antrean Web Speech API: Memanggil window.speechSynthesis.cancel() sebelum .speak()
+       agar antrean suara lama yang macet/tertunda dibersihkan seketika.
+    3. Auto-Close AudioContext: Menutup context Web Audio API setelah sirine selesai (audioCtx.close()),
+       mencegah browser memblokir batasan maksimal 6 context di Chrome/Edge.
+    """
     import streamlit.components.v1 as components
+
+    if not (play_beep or play_tts):
+        return
+
+    if trigger_id is None:
+        trigger_id = f"{int(time.time() * 1000)}_{uuid.uuid4().hex[:6]}"
+
     js_parts = []
     if play_beep:
-        js_parts.append("""
-        try {
+        js_parts.append(f"""
+        // === WEB AUDIO API DUAL-TONE SIREN (Trigger: {trigger_id}) ===
+        try {{
             const AudioCtx = window.AudioContext || window.webkitAudioContext;
-            if (AudioCtx) {
+            if (AudioCtx) {{
                 const ctx = new AudioCtx();
-                if (ctx.state === 'suspended') { ctx.resume(); }
-                function playTone(freq, start, duration) {
+                if (ctx.state === 'suspended') {{
+                    ctx.resume();
+                }}
+                function playTone(freq, start, duration) {{
                     const osc = ctx.createOscillator();
                     const gain = ctx.createGain();
                     osc.type = 'sawtooth';
@@ -223,34 +244,63 @@ def trigger_audio_alarm(play_beep: bool = True, play_tts: bool = True):
                     gain.connect(ctx.destination);
                     osc.start(ctx.currentTime + start);
                     osc.stop(ctx.currentTime + start + duration);
-                }
-                playTone(880, 0, 0.22);
-                playTone(660, 0.24, 0.32);
-            }
-        } catch(e) { console.error('AudioContext Beep error:', e); }
+                }}
+                // Nada sirine bimodal (880 Hz -> 660 Hz)
+                playTone(880, 0.0, 0.22);
+                playTone(660, 0.25, 0.35);
+
+                // Auto-close AudioContext setelah selesai (mencegah limit 6 context di Chromium/Edge)
+                setTimeout(() => {{
+                    try {{
+                        if (ctx.state !== 'closed') {{
+                            ctx.close();
+                        }}
+                    }} catch (errClose) {{
+                        console.warn('AudioContext close error:', errClose);
+                    }}
+                }}, 1500);
+            }}
+        }} catch(eBeep) {{
+            console.error('AudioContext Beep error [{trigger_id}]:', eBeep);
+        }}
         """)
+
     if play_tts:
-        js_parts.append("""
-        try {
-            if ('speechSynthesis' in window) {
+        js_parts.append(f"""
+        // === WEB SPEECH API TTS (Trigger: {trigger_id}) ===
+        try {{
+            if ('speechSynthesis' in window) {{
+                // WAJIB: Batalkan antrean ucapan lama agar ucapan baru langsung keluar tanpa macet
                 window.speechSynthesis.cancel();
                 const u = new SpeechSynthesisUtterance("Harap tenang, ruangan terdeteksi berisik!");
                 u.lang = "id-ID";
                 u.rate = 1.05;
                 u.pitch = 1.0;
+                window._sentinelLatestUtterance = u; // Mencegah garbage collection di Chromium
                 window.speechSynthesis.speak(u);
-            }
-        } catch(e) { console.error('SpeechSynthesis TTS error:', e); }
+            }}
+        }} catch(eTTS) {{
+            console.error('SpeechSynthesis TTS error [{trigger_id}]:', eTTS);
+        }}
         """)
+
     if js_parts:
         full_html = f"""
+        <!-- Cache-Buster Sentinel Alert Container: {trigger_id} -->
+        <div id="sentinel-alert-{trigger_id}" data-cycle="{trigger_id}" style="display:none;"></div>
         <script>
+        // Sentinel Audio Execution Cycle: {trigger_id}
         (function() {{
+            console.log("🔊 Executing Sentinel Audio Alert [{trigger_id}]...");
             {' '.join(js_parts)}
         }})();
         </script>
         """
-        components.html(full_html, height=0, width=0)
+        if container is not None:
+            with container:
+                components.html(full_html, height=0, width=0)
+        else:
+            components.html(full_html, height=0, width=0)
 
 # =========================================================================
 # SIDEBAR NAVIGASI & INFORMASI SISTEM
@@ -335,6 +385,8 @@ with tab_sentinel:
         st.session_state["current_led_str"] = "░" * 16
     if "current_led_pct" not in st.session_state:
         st.session_state["current_led_pct"] = 0.0
+    if "prev_detected_label" not in st.session_state:
+        st.session_state["prev_detected_label"] = 0
 
     # Cek ketersediaan sounddevice
     try:
@@ -383,27 +435,60 @@ with tab_sentinel:
             help="Ucapkan teguran suara 'Harap tenang, ruangan terdeteksi berisik!' via SpeechSynthesis."
         )
 
-    col_sub_btn1, col_sub_btn2 = st.columns([1, 3])
-    with col_sub_btn1:
-        if st.button("🔄 Reset Counter Pelanggaran", help="Mengembalikan jumlah pelanggaran ke 0 dan mengosongkan riwayat"):
-            st.session_state["violation_count"] = 0
-            st.session_state["last_violation_time"] = "-"
-            st.session_state["history_log"] = []
-            st.session_state["current_status"] = "STANDBY"
-            st.session_state["current_proba"] = 0.0
-            st.session_state["current_conf"] = 0.0
-            st.session_state["current_rms"] = 0.0
-            st.session_state["current_latency"] = 0.0
-            st.session_state["current_led_str"] = "░" * 16
-            st.session_state["current_led_pct"] = 0.0
-            st.rerun()
-    with col_sub_btn2:
-        if is_active:
-            st.caption("🟢 **Status:** Sentinel aktif memantau getaran ruangan secara kontinu. Tekan toggle kembali untuk berhenti.")
-        else:
-            st.caption("⚪ **Status:** Sentinel dalam mode Siaga (Standby). Aktifkan toggle di atas untuk memulai pemantauan.")
+    col_mode1, col_mode2 = st.columns([2.3, 1.7])
+    with col_mode1:
+        alert_policy = st.radio(
+            "🔔 Kebijakan Pemicu Suara:",
+            options=[
+                "Setiap Siklus Ramai Beruntun (Continuous Alert)",
+                "Saat Baru Terjadi Keramaian (Onset / Hening -> Ramai)"
+            ],
+            index=0,
+            horizontal=True,
+            help="Continuous Alert: Sirine & teguran suara diputar di setiap siklus deteksi selama ruangan masih berisik. Onset: Alarm hanya berbunyi saat status baru beralih dari tenang ke ramai."
+        )
+    with col_mode2:
+        col_btn_rst, col_btn_tst = st.columns([1, 1])
+        with col_btn_rst:
+            if st.button("🔄 Reset Counter", help="Mengembalikan jumlah pelanggaran ke 0 dan mengosongkan riwayat"):
+                st.session_state["violation_count"] = 0
+                st.session_state["last_violation_time"] = "-"
+                st.session_state["history_log"] = []
+                st.session_state["current_status"] = "STANDBY"
+                st.session_state["prev_detected_label"] = 0
+                st.session_state["current_proba"] = 0.0
+                st.session_state["current_conf"] = 0.0
+                st.session_state["current_rms"] = 0.0
+                st.session_state["current_latency"] = 0.0
+                st.session_state["current_led_str"] = "░" * 16
+                st.session_state["current_led_pct"] = 0.0
+                st.rerun()
+        with col_btn_tst:
+            test_sound_clicked = st.button("🔊 Test Alarm", help="Uji coba nada sirine dan suara teguran di browser Anda sekarang")
+
+    if is_active:
+        st.caption("🟢 **Status:** Sentinel aktif memantau getaran ruangan secara kontinu. Tekan toggle kembali untuk berhenti.")
+    else:
+        st.caption("⚪ **Status:** Sentinel dalam mode Siaga (Standby). Aktifkan toggle di atas untuk memulai pemantauan.")
 
     st.markdown("---")
+
+    # ---------------------------------------------------------------------
+    # DEDICATED CONTAINER UNTUK AUDIO ALERT (BEBAS CACHE STREAMLIT IFRAME)
+    # ---------------------------------------------------------------------
+    alert_audio_placeholder = st.empty()
+
+    if test_sound_clicked:
+        test_trigger_id = f"test_{int(time.time() * 1000)}_{uuid.uuid4().hex[:6]}"
+        trigger_audio_alarm(
+            container=alert_audio_placeholder,
+            play_beep=sound_alarm,
+            play_tts=tts_alarm,
+            trigger_id=test_trigger_id
+        )
+        st.toast("🔊 Membunyikan uji coba alarm...", icon="🚨")
+    elif not is_active:
+        alert_audio_placeholder.empty()
 
     # ---------------------------------------------------------------------
     # GIANT DYNAMIC ALERT BANNER
@@ -637,15 +722,31 @@ with tab_sentinel:
                 "inference_ms": round(infer_ms, 2)
             })
 
-            # Pemicu Alarm jika RAMAI
-            if pred_live == 1 and (sound_alarm or tts_alarm):
-                trigger_audio_alarm(play_beep=sound_alarm, play_tts=tts_alarm)
-                # PENCEGAHAN ACOUSTIC FEEDBACK: Jeda 1.2 detik agar bunyi speaker laptop selesai
-                # sebelum mikrofon merekam kembali di siklus berikutnya!
-                time.sleep(1.2)
+            # Evaluasi Kebijakan Pemicu Suara (Anti-Gagal & Anti One-Shot Lock)
+            is_continuous = alert_policy.startswith("Setiap Siklus")
+            prev_label = st.session_state.get("prev_detected_label", 0)
+            is_onset = (pred_live == 1 and prev_label == 0)
+            should_play_sound = (pred_live == 1) and (sound_alarm or tts_alarm) and (is_continuous or is_onset)
+
+            if should_play_sound:
+                # Cache-buster unik berbasis timestamp milidetik & UUID acak
+                cycle_trigger_id = f"sentinel_{int(time.time() * 1000)}_{uuid.uuid4().hex[:6]}"
+                trigger_audio_alarm(
+                    container=alert_audio_placeholder,
+                    play_beep=sound_alarm,
+                    play_tts=tts_alarm,
+                    trigger_id=cycle_trigger_id
+                )
+                # PENCEGAHAN ACOUSTIC FEEDBACK LOOP: Jeda 1.8 detik agar bunyi sirine speaker laptop
+                # dan kalimat teguran selesai diucapkan sebelum mikrofon merekam siklus berikutnya!
+                time.sleep(1.8)
             else:
+                # Bersihkan iframe audio dari DOM jika suasana TENANG atau tidak memenuhi pemicu
+                alert_audio_placeholder.empty()
                 time.sleep(0.05)
 
+            # Simpan label pendeteksian siklus saat ini sebagai referensi siklus berikutnya
+            st.session_state["prev_detected_label"] = pred_live
             st.rerun()
 
         except Exception as e:

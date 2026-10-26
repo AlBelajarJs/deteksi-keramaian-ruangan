@@ -166,6 +166,15 @@ def run_continuous_monitor(
             if pred_class == 1:
                 status_str = "🚨 RAMAI / BERISIK"
                 total_ramai += 1
+                # Bunyikan alarm suara terminal di setiap deteksi RAMAI
+                try:
+                    if sys.platform == "win32":
+                        import winsound
+                        winsound.Beep(880, 200)
+                    else:
+                        print("\a", end="", flush=True)
+                except Exception:
+                    pass
             else:
                 status_str = "🟢 TENANG / KONDUSIF"
                 total_tenang += 1
